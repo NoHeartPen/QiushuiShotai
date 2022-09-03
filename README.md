@@ -13,7 +13,7 @@ An open-source Chinese font derived from Klee One and Ysabeau and LXGW WenKai. �
 # 字体预览
 
 灰色部分是增补字，红色部分是霞鹜文楷和 Klee 有差异的字
-
+![](documentation/preview.png)
 
 # 制作流程
 
