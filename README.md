@@ -15,6 +15,11 @@ An open-source Chinese font derived from Klee One and Ysabeau and LXGW WenKai. �
 灰色部分是增补字，红色部分是霞鹜文楷和 Klee 有差异的字
 ![](documentation/preview.png)
 
+# 下载
+
+1. 打开[fonts](fonts)文件夹，下载所需要的格式即可
+2. 通过页面右侧的`Releases`/`发行版`下载（这种方式可以下载历史版本）
+
 # 制作流程
 
 本项目使用的字体文件来自以下开源项目：
