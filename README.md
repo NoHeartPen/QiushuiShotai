@@ -1,2 +1,56 @@
-# QiushuiShotai
+# QiushuiShotai / 秋水書体
+
 An open-source Chinese font derived from Klee One and Ysabeau and LXGW WenKai. 一款开源中文字体，基于 Ysabeau、 Klee One、霞鹜文楷衍生。
+
+# 项目简介
+
+作为一名日语专业的学生，我希望有一款在日文字形优先的基础上补全简体字的字体，满足学习语言这样比较特殊的中日文汉字混排的需要。
+
+在偶然得知 [魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger) 后，动手将 Ysabeau、 Klee One、霞鹜文楷这 3 款字体合并，并获得不错的使用体验。抱着分享出来方便大家的想法，将项目开源在 GitHub。
+
+出于表达我对霞鹜文楷制作者的敬意，也是为了沿用原项目的命名风格，斗胆用`落霞与孤鹜齐飞，秋水共长天一色`的下半句来给这个字体起名「秋水書体」（英文名 QiushuiShotai）。
+
+# 字体预览
+
+灰色部分是增补字，红色部分是霞鹜文楷和 Klee 有差异的字
+
+
+# 制作流程
+
+本项目使用的字体文件来自以下开源项目：
+
+[Ysabeau](https://github.com/CatharsisFonts/Ysabeau)：`Ysabeau Office Medium.ttf`，提供西文字形
+
+[Klee](https://github.com/fontworks-fonts/Klee)：`KleeOne-SemiBold.ttf`，提供日文汉字字形
+
+[LxgwWenKai](https://github.com/lxgw/LxgwWenKai)：`LXGWWenKai-Regular.ttf`，提供中文简体字字形
+
+
+使用的字体合并工具是 [魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)
+
+- 按住 Ctrl 键选中西文字体和日文字体文件
+- 按住西文字体将多选的文件拖到拖动到`合并.bat`
+- 按住 Ctrl 键选中合并了西文和日文的字体和中文字体
+- 按住合并了西文和日文的字体将多选的文件拖动到`合并.bat`
+
+需要注意的是这种方法合并的字体可能会在部分软件上遇到问题，请查看 [魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger) 的相关说明部分。
+
+# 许可信息
+
+## 许可
+
+- 这款字体无论是个人还是企业都可以自由商用，无需付费，也无需知会或者标明原作者。 
+- 这款字体可以自由传播、分享，或者将字体安装于系统、软件或 APP 中也是允许的，可以与任何软件捆绑再分发以及／或一并销售。
+- 这款字体可以自由修改、改造，制作衍生字体。修改或改造后的字体也必须同样以 SIL OFL 公开。
+
+## 限制
+
+- 在制作衍生字体时，字体名称不可使用原有字体的「保留名称」。本字体保留名称「秋水書体」「QiushuiShotai」，基于本字体二次衍生的字体，名称不可出现「秋水書体」或「QiushuiShotai」字样；而在没有对字体源代码进行修改的情况下，重新编译出来的字体，可以继续使用本字体的保留名称「秋水書体」「QiushuiShotai」。
+- 根据 SIL Open Font License 1.1 的规定， 禁止单独出售字体文件(OTF/TTF 文件)的行为。
+- 该字体不可在 SIL Open Font License 1.1 以外的授权许可下发行。
+
+# 鸣谢
+
+-  [FONTWORKS 株式会社](http://fontworks.co.jp/) ：提供原版开源字体 Klee， [开发者 GitHub 主页](https://github.com/fontworks-fonts/)
+- [lxgw](https://github.com/lxgw)：提供基于 Klee 补全简体汉字的霞鹜文楷字体
+- [Nowar Typeface](https://github.com/nowar-fonts)：提供字体合并工具
