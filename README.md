@@ -8,35 +8,47 @@ An open-source Chinese font derived from Klee One and Ysabeau and LXGW WenKai. �
 
 在偶然得知 [魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger) 后，动手将 Ysabeau、 Klee One、霞鹜文楷这 3 款字体合并，并获得不错的使用体验。抱着分享出来方便大家的想法，将项目开源在 GitHub。
 
-出于表达我对霞鹜文楷制作者的敬意，也是为了沿用原项目的命名风格，斗胆用`落霞与孤鹜齐飞，秋水共长天一色`的下半句来给这个字体起名「秋水書体」（英文名 QiushuiShotai）。
+出于表达我对霞鹜文楷制作者的敬意，也是为了沿用原项目的命名风格，斗胆用`落霞与孤鹜齐飞，秋水共长天一色`的下半句来给这个字体起名「秋水書体」（英文名 QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来自霞鹜文楷；書体（Shotai）特意使用日文漢字字形和罗马音，表示这是一款以日文字形优先的教科書体。
 
 # 字体预览
 
-灰色部分是增补字，红色部分是霞鹜文楷和 Klee 有差异的字
-![](documentation/preview.png)
+与原项目类似，本项目也有2个分支：
+
+- QiushuiShotai/秋水書体：
+	- [Klee](https://github.com/fontworks-fonts/Klee) 提供日文汉字字形和英文字形
+	- [LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 提供中文简体字字形
+![|500](documentation/preview-QiushuiShotai.png)
+- QiushuiShotai Bright/秋水書体 Bright：
+	- [Ysabeau](https://github.com/CatharsisFonts/Ysabeau)提供西文字形
+	- [Klee](https://github.com/fontworks-fonts/Klee)提供日文汉字字形
+	- [LxgwWenKai](https://github.com/lxgw/LxgwWenKai)提供中文简体字字形
+![|500](documentation/preview-QiushuiShotai%20Bright.png)
+
+另外，喜欢繁体字形的同学可以了解霞鹜文楷作者的 [Fusion Kai / 缝合楷](https://github.com/lxgw/FusionKai)项目的缝合楷 J字体：
+> 以日本标准字形优先，由「Klee One」「霞鹜文楷 TC」依次合并而成。
+
 
 # 下载
 
-1. 打开[fonts](fonts)文件夹，下载所需要的格式即可
+1. 打开 [QiushuiShotai](QiushuiShotai) / [QiushuiShotai Bright](QiushuiShotai Bright) 文件夹，下载所需要的格式即可
 2. 通过页面右侧的`Releases`/`发行版`下载（这种方式可以下载历史版本）
 
 # 制作流程
 
 本项目使用的字体文件来自以下开源项目：
 
-[Ysabeau](https://github.com/CatharsisFonts/Ysabeau)：`Ysabeau Office Medium.ttf`，提供西文字形
+[Ysabeau](https://github.com/CatharsisFonts/Ysabeau)：`YsabeauOffice-Regular.ttf`，提供西文字形
 
 [Klee](https://github.com/fontworks-fonts/Klee)：`KleeOne-SemiBold.ttf`，提供日文汉字字形
 
 [LxgwWenKai](https://github.com/lxgw/LxgwWenKai)：`LXGWWenKai-Regular.ttf`，提供中文简体字字形
 
-
 使用的字体合并工具是 [魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)
 
 - 按住 Ctrl 键选中西文字体和日文字体文件
-- 按住西文字体将多选的文件拖到拖动到`合并.bat`
-- 按住 Ctrl 键选中合并了西文和日文的字体和中文字体
-- 按住合并了西文和日文的字体将多选的文件拖动到`合并.bat`
+- 按住西文字体将多选的文件拖到拖动到`合并.bat`，等待生成一个名为`out.ttf`的文件，将
+- 按住 Ctrl 键选中`out.ttf`和中文字体
+- 按住`out.ttf`将多选的文件拖动到`合并.bat`，等待生成新的`out.ttf`
 
 需要注意的是这种方法合并的字体可能会在部分软件上遇到问题，请查看 [魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger) 的相关说明部分。
 
@@ -54,7 +66,7 @@ An open-source Chinese font derived from Klee One and Ysabeau and LXGW WenKai. �
 - 根据 SIL Open Font License 1.1 的规定， 禁止单独出售字体文件(OTF/TTF 文件)的行为。
 - 该字体不可在 SIL Open Font License 1.1 以外的授权许可下发行。
 
-# 鸣谢
+## 鸣谢
 
 -  [FONTWORKS 株式会社](http://fontworks.co.jp/) ：提供原版开源字体 Klee， [开发者 GitHub 主页](https://github.com/fontworks-fonts/)
 - [lxgw](https://github.com/lxgw)：提供基于 Klee 补全简体汉字的霞鹜文楷字体
