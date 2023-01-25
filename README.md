@@ -31,7 +31,9 @@ An open-source Chinese font derived from Klee One and Ysabeau and LXGW WenKai. �
 # 下载
 
 1. 打开 [QiushuiShotai](QiushuiShotai) 或者  [QiushuiShotai Bright](QiushuiShotai%20Bright) 文件夹，下载所需要的格式即可
-2. 通过页面右侧的`Releases`/`发行版`下载（这种方式可以下载历史版本）
+2. 123盘： 
+	1. QiushuiShotai : https://www.123pan.com/s/iGz0Vv-LodVh
+	2. QiushuiShotai Bright: https://www.123pan.com/s/iGz0Vv-iodVh
 
 # 制作流程
 
