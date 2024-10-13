@@ -18,27 +18,28 @@ QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来
 
 ## 字体预览
 
-与原项目类似，本项目也有2个分支：
+与原项目类似，本项目也有 2 个分支：
 
 - QiushuiShotai/秋水書体：
-    - [Klee](https://github.com/fontworks-fonts/Klee) 提供日文汉字字形和英文字形
-    - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 提供中文简体字字形
-      ![|500](documentation/preview-QiushuiShotai.png)
+  - [Klee](https://github.com/fontworks-fonts/Klee) 提供日文汉字字形和英文字形
+  - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 提供中文简体字字形
+    ![|500](documentation/preview-QiushuiShotai.png)
 - QiushuiShotai Bright/秋水書体 Bright：
-    - [Ysabeau](https://github.com/CatharsisFonts/Ysabeau)提供西文字形
-    - [Klee](https://github.com/fontworks-fonts/Klee)提供日文汉字字形
-    - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai)提供中文简体字字形
-      ![|500](documentation/preview-QiushuiShotai%20Bright.png)
+  - [Ysabeau](https://github.com/CatharsisFonts/Ysabeau)提供西文字形
+  - [Klee](https://github.com/fontworks-fonts/Klee)提供日文汉字字形
+  - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai)提供中文简体字字形
+    ![|500](documentation/preview-QiushuiShotai%20Bright.png)
 
-另外，喜欢繁体字形的同学可以了解霞鹜文楷作者的 [Fusion Kai / 缝合楷](https://github.com/lxgw/FusionKai)项目的缝合楷 J字体：
+另外，喜欢繁体字形的同学可以了解霞鹜文楷作者的 [Fusion Kai / 缝合楷](https://github.com/lxgw/FusionKai)项目的缝合楷 J 字体：
+
 > 以日本标准字形优先，由「Klee One」「霞鹜文楷 TC」依次合并而成。
 
 ## 下载
 
-1. 打开 [QiushuiShotai](QiushuiShotai) 或者  [QiushuiShotai Bright](QiushuiShotai%20Bright) 文件夹，下载所需要的格式即可
-2. 123盘：
-    1. QiushuiShotai : https://www.123pan.com/s/iGz0Vv-LodVh
-    2. QiushuiShotai Bright: https://www.123pan.com/s/iGz0Vv-iodVh
+1. 打开 [QiushuiShotai](QiushuiShotai) 或者 [QiushuiShotai Bright](QiushuiShotai%20Bright) 文件夹，下载所需要的格式即可
+2. 123 盘：
+   1. QiushuiShotai : <https://www.123pan.com/s/iGz0Vv-LodVh>
+   2. QiushuiShotai Bright: <https://www.123pan.com/s/iGz0Vv-iodVh>
 
 ## 制作流程
 
@@ -53,9 +54,9 @@ QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来
 使用的字体合并工具是[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)
 
 - 按住 Ctrl 键选中西文字体和日文字体文件
-- 按住西文字体将多选的文件拖到拖动到`合并.bat`，等待生成一个名为`out.ttf`的文件，将
-- 按住 Ctrl 键选中`out.ttf`和中文字体
-- 按住`out.ttf`将多选的文件拖动到`合并.bat`，等待生成新的`out.ttf`
+- 按住西文字体将多选的文件（即西文字体和日文字体）拖动到`合并.bat`，等待生成一个名为`out.ttf`的文件
+- 按住 Ctrl 键选中上面生成的`out.ttf`和中文字体
+- 按住`out.ttf`将多选的文件（即生成的日文字体和中文字体）拖动到`合并.bat`，等待生成新的`out.ttf`
 
 需要注意的是这种方法合并的字体可能会在部分软件上遇到问题，请查看[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)
 的相关说明部分。
@@ -69,8 +70,6 @@ QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来
 - 这款字体可以自由修改、改造，制作衍生字体。修改或改造后的字体也必须同样以 SIL OFL 公开。
 
 ### 限制
-
--
 
 在制作衍生字体时，字体名称不可使用原有字体的「保留名称」。本字体保留名称「秋水書体」「QiushuiShotai」，基于本字体二次衍生的字体，名称不可出现「秋水書体」或「QiushuiShotai」字样；而在没有对字体源代码进行修改的情况下，重新编译出来的字体，可以继续使用本字体的保留名称「秋水書体」「QiushuiShotai」。
 
