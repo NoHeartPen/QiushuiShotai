@@ -58,8 +58,7 @@ QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来
 - 按住 Ctrl 键选中上面生成的`out.ttf`和中文字体
 - 按住`out.ttf`将多选的文件（即生成的日文字体和中文字体）拖动到`合并.bat`，等待生成新的`out.ttf`
 
-需要注意的是这种方法合并的字体可能会在部分软件上遇到问题，请查看[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)
-的相关说明部分。
+需要注意的是这种方法合并的字体可能会在部分软件上遇到问题，请查看[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger) 的相关说明部分。
 
 ## 许可信息
 
