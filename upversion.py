@@ -51,7 +51,7 @@ def delete_font_info(font_path):
 FONT_NAME = "QiushuiShotai"
 BRIGHT_NAME = "QiushuiShotaiBright"
 
-UPDATE_VERSION = "1.501"
+UPDATE_VERSION = "1.511"
 # pylint: disable=line-too-long
 COPY_RIGHT = r"Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)\nCopyright 2021-2024 LXGW (https://github.com/lxgw/LxgwWenKai)\nCopyright 2022-now NoHeartPen (https://github.com/NoHeartPen/QiushuiShotai)"
 
