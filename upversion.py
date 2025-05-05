@@ -155,7 +155,7 @@ KLEE_FILENAME = "KleeOne-SemiBold.ttf"
 BASE_KLEE_PATH = os.path.join(BASE_FONT_DIR, KLEE_FILENAME)
 # Bright 的基础字体
 BRIGHT_KLEE_NAME = "KleeOne-SemiBold-Ysabeau-Regular.ttf"
-BASE_BRIGHT_KLEE_PATH = os.path.join(BASE_FONT_DIR, KLEE_FILENAME)
+BASE_BRIGHT_KLEE_PATH = os.path.join(BASE_FONT_DIR, BRIGHT_KLEE_NAME)
 # 补全中文字形的字体
 LXGW_FILE_NAME = "LXGWWenKai-Regular.ttf"
 BASE_LXGW_PATH = os.path.join(BASE_FONT_DIR, LXGW_FILE_NAME)
