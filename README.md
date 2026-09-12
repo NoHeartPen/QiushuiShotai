@@ -12,7 +12,7 @@ One、霞鹜文楷衍生。
 在偶然得知[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)后，动手将 Ysabeau、 Klee
 One、霞鹜文楷这 3 款字体合并，并获得不错的使用体验。抱着分享出来方便大家的想法，将项目开源在 GitHub。
 
-出于表达我对霞鹜文楷制作者的敬意，也是为了沿用原项目的命名风格，在获得原作者[同意](https://github.com/lxgw/LxgwWenKai/issues/84)后，用`落霞与孤鹜齐飞，秋水共长天一色`的下半句来给这个字体起名「秋水書体」（英文名 QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来自霞鹜文楷；書体（Shotai）特意使用日文漢字字形和罗马音，表示这是一款以日文字形优先的教科書体。
+出于表达我对霞鹜文楷制作者的敬意，也为了沿用原项目的命名风格，在获得原作者[同意](https://github.com/lxgw/LxgwWenKai/issues/84)后，用`落霞与孤鹜齐飞，秋水共长天一色`的下半句来给这个字体起名「秋水書体」（英文名 QiushuiShotai）——秋水（Qiushui）表示该字体的简体中文字形来自霞鹜文楷；書体（Shotai）特意使用日文漢字字形和罗马音，表示这是一款以日文字形优先的教科書体。
 
 ## 字体预览
 
@@ -23,9 +23,9 @@ One、霞鹜文楷这 3 款字体合并，并获得不错的使用体验。抱�
   - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 提供中文简体字字形
     ![|500](documentation/preview-QiushuiShotai.png)
 - QiushuiShotai Bright/秋水書体 Bright：
-  - [Ysabeau](https://github.com/CatharsisFonts/Ysabeau)提供西文字形
-  - [Klee](https://github.com/fontworks-fonts/Klee)提供日文汉字字形
-  - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai)提供中文简体字字形
+  - [Ysabeau](https://github.com/CatharsisFonts/Ysabeau) 提供西文字形
+  - [Klee](https://github.com/fontworks-fonts/Klee) 提供日文汉字字形
+  - [LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 提供中文简体字字形
     ![|500](documentation/preview-QiushuiShotai%20Bright.png)
 
 另外，喜欢繁体字形的同学可以了解霞鹜文楷作者的 [Fusion Kai / 缝合楷](https://github.com/lxgw/FusionKai)项目的缝合楷 J 字体：
@@ -49,12 +49,13 @@ One、霞鹜文楷这 3 款字体合并，并获得不错的使用体验。抱�
 
 [LxgwWenKai](https://github.com/lxgw/LxgwWenKai)：`LXGWWenKai-Regular.ttf`，提供中文简体字字形
 
-使用的字体合并工具是[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)
+使用的字体合并工具是[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)，具体操作流程如下：
 
 - 按住 Ctrl 键选中西文字体和日文字体文件
 - 按住西文字体将多选的文件（即西文字体和日文字体）拖动到`合并.bat`，等待生成一个名为`out.ttf`的文件
 - 按住 Ctrl 键选中上面生成的`out.ttf`和中文字体
 - 按住`out.ttf`将多选的文件（即生成的日文字体和中文字体）拖动到`合并.bat`，等待生成新的`out.ttf`
+- 也可以使用 `up_version.py` 更新
 
 需要注意的是这种方法合并的字体可能会在部分软件上遇到问题，请查看[魔兽世界字体合并/补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger) 的相关说明部分。
 
